@@ -4,3 +4,5 @@ def gray_to_binary(gray):
    binary_code = ""
    binary_code += gray[0]
    for i in range(1, len(gray)):
+ if (gray[i] == '0'):
+         binary_code += binary_code[i - 1]
