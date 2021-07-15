@@ -10,3 +10,6 @@ else:
          binary_code += flip_num(binary_code[i - 1])
 return binary_code
 gray_code = "01101001"
+print("The gray code is :")
+print(gray_code)
+print("Binary code of", gray_code, "is", gray_to_binary(gray_code))
