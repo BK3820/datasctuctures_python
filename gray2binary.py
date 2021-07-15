@@ -6,3 +6,5 @@ def gray_to_binary(gray):
    for i in range(1, len(gray)):
  if (gray[i] == '0'):
          binary_code += binary_code[i - 1]
+else:
+         binary_code += flip_num(binary_code[i - 1])
