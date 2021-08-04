@@ -25,7 +25,9 @@ print(x)
 v = int(input("enter the value to be searched: "))
 n = len(x)
 
+
 result = binary_search(x, 0, n-1, v)
+
 
 if result == -1:
     print("no value ")
